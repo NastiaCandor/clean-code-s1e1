@@ -42,6 +42,7 @@
 
 .todo__add-task {
   display: flex;
+  padding: 20px 0;
 }
 
 .todo__list {
@@ -104,10 +105,10 @@
 }
 
 /* New Task */
-.todo__label-add {
+/* .todo__label-add {
   display: block;
   margin: 0 0 20px;
-}
+} */
 
 .todo__input-task {
   width: 318px;
