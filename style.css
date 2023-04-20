@@ -33,7 +33,8 @@
   margin: 0 auto 0;
 }
 
-.todo__label-task, .todo__input-task {
+.todo__label-task, 
+.todo__input-task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -48,11 +49,14 @@
   padding: 0px;
 }
 
-.todo__item, .todo__title {
+.todo__item, 
+.todo__title {
   list-style: none;
 }
 
-.todo__input-add, .todo__input-task, .todo__btn{
+.todo__input-add, 
+.todo__input-task, 
+.todo__btn{
   outline: none;
 }
 
