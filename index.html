@@ -13,7 +13,7 @@
     <p id="todo__title">
       <label class="todo__label-add" for="todo__input-add">Add Item</label>
       <div class="todo__add-task">
-        <input id="todo__input-add" class="todo__input-task" type="text">
+        <input id="todo__input-add" class="todo__input-task todo__input-add" type="text">
         <button class="todo__btn todo__btn_add">Add</button>
       </div>
     </p>
@@ -29,7 +29,7 @@
         </button>
       </li>
       <li class="todo__item todo__item_edit-mode">
-        <input type="checkbox">
+        <input class="todo__input-checkbox" type="checkbox">
         <label class="todo__label-task">Go Shopping</label>
         <input type="text" value="Go Shopping" class="todo__input-task">
         <button class="todo__btn todo__btn_edit">Save</button>
@@ -41,7 +41,7 @@
     <h3 class="todo__title">Completed</h3>
     <ul class="todo__list todo__list_complete" id="todo__list_complete">
       <li class="todo__item">
-        <input type="checkbox" checked>
+        <input class="todo__input-checkbox" type="checkbox" checked>
         <label class="todo__label-task">See the Doctor</label>
         <input type="text" class="todo__input-task">
         <button class="todo__btn todo__btn_edit">Edit</button>
